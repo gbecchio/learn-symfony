@@ -1,0 +1,5 @@
+# app/config/routing.yml
+
+SdzBlogBundle:
+    resource:  "@SdzBlogBundle/Resources/config/routing.yml"
+    prefix:    /blog
