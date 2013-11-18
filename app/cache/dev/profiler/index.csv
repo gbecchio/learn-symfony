@@ -1,7 +1,2 @@
-018af3,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/,1384272927,
-a0aa9b,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384273490,
-7cafc1,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384273614,
-c8bdda,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384273616,
-35af5b,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384273626,
-7a223a,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384364586,
-092d2e,127.0.0.1,GET,http://localhost/Symfony/web/app_dev.php/blog/?id=123,1384373376,
+b36d70,127.0.0.1,GET,http://localhost/sy2/web/app_dev.php/blog/,1384810017,
+89809f,127.0.0.1,GET,http://localhost/sy2/web/app_dev.php/_fragment?_path=_format%3Dhtml%26_locale%3Den%26_controller%3DSdzBlogBundle%253ABlog%253Amenu,1384810017,b36d70
