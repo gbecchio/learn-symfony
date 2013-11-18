@@ -1,9 +1,7 @@
 # src/sdz/BlogBundle/Resources/config/routing.yml
- 
 sdzblog_accueil:
     path:      /
     defaults:  { _controller: SdzBlogBundle:Blog:index, page: 1 }
-     
 sdzblog_voir:
     path:      /article/{id}
     defaults:  { _controller: SdzBlogBundle:Blog:voir }

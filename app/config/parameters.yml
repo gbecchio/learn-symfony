@@ -9,6 +9,7 @@ parameters:
     mailer_transport: gmail
     mailer_host: 
     mailer_user: gbecchio@gmail.com
-    mailer_password: Greg!SU7
+    mailer_password:
     locale: en
     secret: ThisTokenIsNotSoSecretChangeIt
+    app_webmaster: Gréogry Becchio
