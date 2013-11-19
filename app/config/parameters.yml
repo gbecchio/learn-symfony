@@ -12,5 +12,3 @@ parameters:
     mailer_password: null
     locale: en
     secret: ThisTokenIsNotSoSecretChangeIt
-    app_webmaster: gbecchio
-
