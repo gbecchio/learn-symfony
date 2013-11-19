@@ -7,9 +7,9 @@ parameters:
     database_user: root
     database_password: null
     mailer_transport: gmail
-    mailer_host: 
+    mailer_host: null
     mailer_user: gbecchio@gmail.com
-    mailer_password:
+    mailer_password: null
     locale: en
     secret: ThisTokenIsNotSoSecretChangeIt
-    app_webmaster: Gréogry Becchio
+    app_webmaster: gbecchio
