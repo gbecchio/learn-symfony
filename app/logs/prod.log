@@ -1,0 +1,2 @@
+[2013-11-20 09:46:54] request.INFO: Matched route "sdzblog_accueil" (parameters: "_controller": "Sdz\BlogBundle\Controller\BlogController::indexAction", "page": "1", "_route": "sdzblog_accueil") [] []
+[2013-11-20 09:46:54] request.CRITICAL: Uncaught PHP Exception Exception: "Votre message a été détecté comme spam !" at /var/www/sy2/learn-symfony/src/Sdz/BlogBundle/Controller/BlogController.php line 33 {"exception":"[object] (Exception: Votre message a été détecté comme spam ! at /var/www/sy2/learn-symfony/src/Sdz/BlogBundle/Controller/BlogController.php:33)"} []

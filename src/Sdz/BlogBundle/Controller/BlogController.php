@@ -10,7 +10,26 @@ class BlogController extends Controller
     public function indexAction()
     {
       // …
+      $mailer = $this->container->get('mailer'); // On a donc accès au conteneur
+      $mailer2 = $this->get('mailer'); // On a donc accès au conteneur
+      $antispam = $this->container->get('sdz_blog.antispam');
+      $param = $this->container->getParameter('mon_parametre');
+      $txt = <<<txt
+<a href='http://www.google.fr>a</a><br />
+<a href='http://www.google.fr>a</a><br />
+txt;
 
+     /* echo "<pre>";
+      print_r($mailer);
+      print_r($mailer2);
+      var_dump($antispam->isSpam($txt));
+      echo $param;
+      echo "</pre>";
+      */
+       // Je pars du principe que $text contient le texte d'un message quelconque
+    if ($antispam->isSpam($txt)) {
+      throw new \Exception('Votre message a été détecté comme spam !');
+    }
       // Les articles :
       $articles = array(
         array(
