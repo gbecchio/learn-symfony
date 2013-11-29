@@ -26,3 +26,8 @@ sdzblog_voir_slug:
     requirements:
         annee:  \d{4}
         format: html|xml
+sdzblog_modifier_image:
+    path: /modifierImage/{id_article}
+    defaults: {_controller: SdzBlogBundle:Blog:modifierImage}
+    requirements:
+        id_article:  \d+

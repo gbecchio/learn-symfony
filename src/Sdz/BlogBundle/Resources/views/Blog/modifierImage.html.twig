@@ -1,0 +1,18 @@
+{# src/Sdz/BlogBundle/Resources/views/Blog/modifier.html.twig #}
+
+{% extends "SdzBlogBundle::layout.html.twig" %}
+
+{% block title %}
+  Image modifiée - {{ parent() }}
+{% endblock %}
+
+{% block sdzblog_body %}
+
+  <h2>Modification de l'image</h2>
+
+  {% include "SdzBlogBundle:Blog:formulaire.html.twig" %}
+
+  <p>
+    <img src="{{ image.url }}" alt="nouvelle image"></a>
+  </p>
+{% endblock %}
